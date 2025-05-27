@@ -1,91 +1,31 @@
 enunciado;alternativaA;alternativaB;alternativaC;alternativaD;correta;nivel
-  O que e um algoritmo?;Um plano de refeicoes;Uma sequencia de passos para resolver um problema;Um tipo de dado;Um programa de computador;B;1
-  Qual a parte fisica do computador?;Monitor;Teclado;Hardware;Software;C;1
-  Qual e a principal funcao da CPU?;Armazenar dados;Processar dados;Exibir imagens;Conectar a internet;B;1
-  O que significa RAM?;Random Access Memory;Read Only Memory;Rapid Access Module;Realtime Access Management;A;1
-  Qual periferico de saida exibe informacoes visuais?;Teclado;Mouse;Impressora;Monitor;D;1
-  Qual a funcao de um mouse?;Digitar texto;Mover o cursor na tela;Imprimir documentos;Armazenar arquivos;B;1
-  O que e um byte?;Uma unidade de medida de tempo;Uma unidade de medida de dados;Um tipo de conexao de rede;Um programa de seguranca;B;1
-  Qual destes e um sistema operacional?;Microsoft Word;Google Chrome;Windows;Adobe Photoshop;C;1
-  Qual a unidade basica de informacao em computacao?;Megabyte;Gigabyte;Bit;Kilobyte;C;1
-  O que e um software?;A parte fisica do computador;Um programa de computador;Um tipo de cabo;Um periferico de entrada;B;1
-  Qual o nome do programa que usamos para acessar sites na internet?;Navegador;Editor de Texto;Planilha;Reprodutor de Video;A;1
-  Qual o comando para listar arquivos no terminal Linux?;cd;mkdir;ls;rm;C;1
-  O que significa HTTP?;HyperText Transfer Protocol;High Task Technical Program;Home Total Transfer Product;Hyperlink Terminal Text Process;A;1
-  Qual a porta USB mais comum para conectar dispositivos?;USB-A;USB-B;USB-C;USB-Micro;A;1
-  O que e um firewall?;Um programa antivirus;Uma barreira de seguranca de rede;Um tipo de navegador;Um software de edicao de imagem;B;1
-  Qual o atalho para copiar no Windows?;Ctrl+X;Ctrl+V;Ctrl+C;Ctrl+Z;C;1
-  O que e um pixel?;A menor unidade de uma imagem digital;Um tipo de impressora;Um componente da CPU;Um tipo de software grafico;A;1
-  Qual o nome da tela inicial do Windows?;Barra de tarefas;Menu Iniciar;Area de trabalho;Painel de Controle;C;1
-  Qual a funcao do disco rigido (HD)?;Armazenar programas e arquivos;Processar informacoes;Conectar a internet;Exibir graficos;A;1
-  O que e um virus de computador?;Um software que protege o computador;Um programa malicioso que infecta o sistema;Um componente de hardware;Um tipo de rede;B;1
-  Qual a sigla para "Rede de Area Local"?;WAN;MAN;LAN;GAN;C;1
-  Quem e considerado o "pai da computacao" moderna?;Bill Gates;Alan Turing;Steve Jobs;Charles Babbage;D;2
-  Qual foi o primeiro computador eletronico digital de grande escala?;ENIAC;ABC;Colossus;UNIVAC;A;2
-  Qual empresa foi co-fundada por Steve Jobs?;Microsoft;IBM;Apple;Google;C;2
-  Qual linguagem de programacao foi criada por Guido van Rossum?;Java;C++;Python;Ruby;C;2
-  O que foi a Lei de Moore?;Uma lei sobre a densidade de transistores em chips;Uma lei da robotica;Uma lei sobre a velocidade da internet;Uma lei sobre o consumo de energia;A;2
-  Qual o nome da primeira programadora de computadores?;Grace Hopper;Ada Lovelace;Hedy Lamarr;Marie Curie;B;2
-  Qual o ano de lancamento do primeiro iPhone?;2005;2006;2007;2008;C;2
-  Qual empresa lancou o sistema operacional Android?;Apple;Microsoft;Google;Samsung;C;2
-  O que e HTML?;Linguagem de programacao;Linguagem de marcacao para web;Sistema operacional;Banco de dados;B;2
-  Qual a funcao do navegador web?;Editar textos;Acessar sites da internet;Criar planilhas;Gerenciar arquivos;B;2
-  Qual o primeiro navegador web grafico popular?;Mosaic;Netscape Navigator;Internet Explorer;Google Chrome;A;2
-  Quem fundou a Microsoft junto com Bill Gates?;Paul Allen;Steve Ballmer;Satya Nadella;Jeff Bezos;A;2
-  O que e um "bug" em programacao?;Um erro no codigo;Um tipo de hardware;Um programa antivirus;Um acessorio de computador;A;2
-  Qual a principal diferenca entre hardware e software?;Hardware e fisico e software e logico;Software e fisico e hardware e logico;Ambos sao fisicos;Ambos sao logicos;A;2
-  O que e um sistema operacional?;Um programa para escrever textos;Um programa que gerencia os recursos do computador;Um tipo de impressora;Uma rede de computadores;B;2
-  Qual o conceito de "Inteligencia Artificial"?;Maquinas que agem como humanos;Estudo de insetos;Programas para jogar xadrez;Sistemas que armazenam dados;A;2
-  O que e um "array" em programacao?;Um tipo de dado para armazenar um unico valor;Uma colecao de elementos do mesmo tipo;Uma funcao matematica;Um metodo de depuracao;B;2
-  Qual o principal objetivo de um banco de dados?;Armazenar informacoes de forma organizada;Processar videos;Criar animacoes;Navegar na internet;A;2
-  O que e um "loop" em programacao?;Uma estrutura de controle que repete um bloco de codigo;Um erro de sintaxe;Um tipo de variavel;Uma funcao grafica;A;2
-  O que e "compilacao" em programacao?;Executar um programa;Traduzir codigo fonte para codigo de maquina;Escrever um algoritmo;Testar um software;B;2
-  Qual o ano de fundacao da Google?;1996;1997;1998;1999;C;2
-  Qual o nome do fundador da Amazon?;Bill Gates;Steve Jobs;Jeff Bezos;Mark Zuckerberg;C;2
-  Qual o nome do primeiro computador programavel?;Analytical Engine;Z1;ENIAC;Colossus;B;2
-  Quem e o criador da World Wide Web (WWW)?;Tim Berners-Lee;Vinton Cerf;Bill Gates;Steve Wozniak;A;2
-  O que e "cloud computing"?;Armazenamento de dados em HD externo;Processamento de dados em servidores remotos;Criptografia de informacoes;Desenvolvimento de jogos;B;2
-  Qual a principal funcao do roteador em uma rede?;Armazenar dados;Distribuir conexao a internet;Imprimir documentos;Digitar texto;B;2
-  O que e um "algoritmo de ordenacao"?;Um algoritmo para organizar dados em uma sequencia;Um algoritmo para criptografar informacoes;Um algoritmo para calcular medias;Um algoritmo para buscar dados;A;2
-  Qual a funcao de um "driver" em um computador?;Um programa para dirigir carros autonomos;Um software que permite ao hardware se comunicar com o sistema operacional;Um tipo de cabo de rede;Um acessorio de som;B;2
-  Qual o nome do chip que integra CPU, GPU e memoria?;APU;CPU;GPU;RAM;A;3
-  O que e um "framework" em desenvolvimento de software?;Uma colecao de ferramentas e bibliotecas que facilitam o desenvolvimento;Um tipo de sistema operacional;Um banco de dados;Um compilador de codigo;A;3
-  Qual o conceito de "Big Data"?;Grandes volumes de dados que exigem ferramentas especificas para processamento;Um tipo de banco de dados pequeno;Um programa de analise de texto;Uma nova linguagem de programacao;A;3
-  O que e "Machine Learning"?;Um subcampo da IA que permite sistemas aprenderem com dados;Um tipo de maquina de escrever;Um software para traducao de idiomas;Um jogo de videogame;B;3
-  Qual a diferenca entre um IP publico e um IP privado?;Um e fixo e o outro e dinamico;Um e acessivel pela internet e o outro nao;Um e para PCs e o outro para servidores;Um e para IPv4 e o outro para IPv6;B;3
-  O que e "ciberseguranca"?;Seguranca de predios;Protecao de sistemas e redes contra ataques digitais;Estudo de insetos ciberneticos;Desenvolvimento de softwares para jogos;B;3
-  Qual o protocolo de email para envio?;POP3;IMAP;SMTP;FTP;C;3
-  O que e "backend" em desenvolvimento web?;A parte visual de um site;A logica e o servidor que processam os dados de um site;O design de um aplicativo mobile;O banco de dados de um aplicativo;B;3
-  Qual a funcao de um servidor DNS?;Distribuir enderecos IP automaticamente;Traduzir nomes de dominio para enderecos IP;Armazenar arquivos na nuvem;Criptografar dados de rede;B;3
-  O que e "virtualizacao" em computacao?;Criar copias fisicas de maquinas;Criar versoes virtuais de recursos de hardware ou software;Conectar computadores em rede;Proteger dados com criptografia;B;3
-  Qual a finalidade de um "API" (Application Programming Interface)?;Definir como softwares interagem entre si;Conectar computadores a impressoras;Criar interfaces graficas de usuario;Gerenciar banco de dados;A;3
-  O que e um "hash" em criptografia?;Um tipo de algoritmo de compressao;Uma funcao que transforma dados em uma sequencia de caracteres de tamanho fixo;Um metodo de autenticacao de usuario;Um protocolo de comunicacao segura;B;3
-  Qual a diferenca entre IPv4 e IPv6?;O IPv4 e para redes pequenas e o IPv6 para grandes;O IPv4 usa enderecos de 32 bits e o IPv6 usa 128 bits;O IPv4 e mais seguro que o IPv6;O IPv4 e mais rapido que o IPv6;B;3
-  O que e "Internet das Coisas" (IoT)?;Uma rede de computadores em casa;Dispositivos conectados a internet que coletam e trocam dados;Um novo protocolo de internet;Um tipo de tecnologia de armazenamento;B;3
-  Qual o nome do software que traduz codigo fonte para codigo de maquina?;Interpretador;Compilador;Assembler;Editor de texto;B;3
-  O que e "versionamento de codigo" (e.g., com Git)?;Criar diferentes versoes de um software final;Controlar e gerenciar mudancas no codigo fonte de um projeto;Publicar software em lojas de aplicativos;Criptografar o codigo para seguranca;B;3
-  O que e "refatoracao" de codigo?;Reescrever um codigo do zero;Alterar a estrutura interna de um codigo sem mudar seu comportamento externo;Adicionar novas funcionalidades a um software;Remover erros de um programa;B;4
-  Qual o teorema fundamental da computacao que descreve o que pode ser computado?;Teorema de Godel;Tese de Church-Turing;Lei de Moore;Principio de Heisenberg;B;4
-  O que e "computacao quantica"?;Computacao baseada em eletricidade;Uso de fenomenos da mecanica quantica para resolver problemas complexos;Computacao que utiliza inteligencia artificial;Computacao em nuvem com alta performance;B;4
-  Qual o problema P vs NP?;Um problema na teoria da complexidade computacional sobre a relacao entre problemas "faceis" e "dificeis";Um problema em engenharia de software;Um dilema em inteligencia artificial;Um desafio de seguranca de rede;A;4
-  O que e "programacao funcional"?;Um paradigma de programacao que trata a computacao como a avaliacao de funcoes matematicas;Um estilo de programacao para aplicativos moveis;Um metodo para criar jogos;Um tipo de linguagem de script;A;4
-  Qual a principal caracteristica da linguagem C++?;E uma linguagem de script;E uma linguagem orientada a objetos com baixo nivel de controle;E uma linguagem exclusiva para web;E uma linguagem apenas para inteligencia artificial;B;4
-  O que e "polimorfismo" em POO?;A capacidade de um objeto assumir diferentes formas;Ter multiplas herancas;A criacao de varios objetos da mesma classe;A encapsulamento de dados;A;4
-  Qual a diferenca entre thread e processo?;Um processo e uma unidade de execucao dentro de um programa, e uma thread e um programa independente;Um processo e um programa independente, e uma thread e uma unidade de execucao dentro de um processo;Threads sao mais lentas que processos;Processos nao compartilham memoria, threads compartilham;B;4
-  O que e "algoritmo guloso"?;Um algoritmo que sempre escolhe a melhor opcao local na esperanca de encontrar a melhor solucao global;Um algoritmo lento e ineficaz;Um algoritmo que usa muita memoria;Um algoritmo para criptografia;A;4
-  Qual a funcao de um "debugger" em desenvolvimento?;Escrever codigo automaticamente;Ajudar a encontrar e corrigir erros em um programa;Publicar software;Gerenciar dependencias de projetos;B;4
-  O que e um "deadlock" em sistemas operacionais?;Um erro de compilacao;Uma situacao em que dois ou mais processos ficam bloqueados indefinidamente esperando uns pelos outros;Um tipo de ataque cibernetico;Um problema de hardware;B;4
-  Qual a diferenca entre Stack e Heap na memoria?;Stack e para alocacao estatica e Heap para dinamica;Stack e para alocacao dinamica e Heap para estatica;Stack e maior que Heap;Heap e mais rapido que Stack;A;4
-  O que e "testing de unidade" em software?;Testar o sistema inteiro;Testar pequenas partes isoladas do codigo;Testar a interface do usuario;Testar o desempenho do software;B;4
-  O que e "programacao reativa"?;Um paradigma para lidar com fluxos de dados assincronos e propagacao de mudancas;Programacao com inteligencia artificial;Programacao para robotica;Programacao de baixo nivel;A;4
-  Qual a complexidade de tempo de um algoritmo de busca binaria em um array ordenado?;O(n);O(n log n);O(log n);O(n^2);C;4
-  O que foi a "Crise do Ano 2000" (Y2K)?;Um problema de hardware em 2000;Um bug de software devido ao formato de data com dois digitos;Um ataque cibernetico em 2000;Uma falha de internet global;B;5
-  Qual a arquitetura de von Neumann?;Modelo de computador com unidade de processamento e memoria separadas;Modelo de computador com programa e dados armazenados juntos;Arquitetura de rede de computadores;Arquitetura de software distribuido;B;5
-  Qual a importancia de Ada Lovelace na computacao?;Criou a primeira linguagem de programacao;Escreveu o primeiro algoritmo para a Maquina Analitica de Babbage;Inventou o primeiro computador eletronico;Fundou a primeira empresa de software;B;5
-  O que sao "Registradores" na CPU?;Locais de armazenamento temporario de alta velocidade na CPU;Componentes para conectar perifericos;Tipos de memoria RAM;Unidades de entrada de dados;A;5
-  Qual a finalidade de um "escalonador de processos" em um sistema operacional?;Gerenciar a execucao de programas;Controlar o acesso a internet;Otimizar o uso da impressora;Organizar arquivos no disco;A;5
-  O que e "cache" em computacao?;Um tipo de memoria de armazenamento lento;Uma pequena e rapida memoria que armazena dados frequentemente acessados;Um software de seguranca;Um sistema de arquivos;B;5
-  Qual o principio de funcionamento de um transistor?;Amplificar e chavear sinais eletronicos;Gerar energia eletrica;Armazenar dados permanentemente;Conectar redes de computadores;A;5
-  O que e um "pipeline" em arquitetura de computadores?;Um tubo fisico para transporte de dados;Uma tecnica para paralelizar a execucao de instrucoes na CPU;Um tipo de barramento de dados;Uma fila de processos em execucao;B;5
-  Qual a diferenca entre um compilador e um interpretador?;Um compila tudo antes de executar, o outro executa linha por linha;Um e para C++, o outro para Python;Um e online, o outro offline;Um e pago, o outro gratuito;A;5
-  O que e "codigo de maquina"?;Codigo escrito em linguagem de alto nivel;Instrucoes diretamente compreendidas pela CPU;Codigo otimizado para navegadores web;Codigo usado para criar jogos;B;5
+Qual a parte fisica do computador?;Monitor;Teclado;Hardware;Software;C;1
+O que e um algoritmo?;Um plano de refeicoes;Uma sequencia de passos para resolver um problema;Um tipo de dado;Um programa de computador;B;1
+Qual a principal funcao da CPU?;Armazenar dados;Processar dados;Exibir imagens;Conectar a internet;B;2
+O que significa RAM?;Random Access Memory;Read Only Memory;Rapid Access Module;Realtime Access Management;A;2
+Qual periferico de saida exibe informacoes visuais?;Teclado;Mouse;Impressora;Monitor;D;3
+Qual a funcao de um mouse?;Digitar texto;Mover o cursor na tela;Imprimir documentos;Armazenar arquivos;B;3
+O que e um byte?;Uma unidade de medida de tempo;Uma unidade de medida de dados;Um tipo de conexao de rede;Um programa de seguranca;B;3
+Qual destes e um sistema operacional?;Microsoft Word;Google Chrome;Windows;Adobe Photoshop;C;3
+Qual a unidade basica de informacao em computacao?;Megabyte;Gigabyte;Bit;Kilobyte;C;4
+O que e um software?;A parte fisica do computador;Um programa de computador;Um tipo de cabo;Um periferico de entrada;B;4
+Qual o nome do programa que usamos para acessar sites na internet?;Navegador;Editor de Texto;Planilha;Reprodutor de Video;A;4
+Qual o comando para listar arquivos no terminal Linux?;cd;mkdir;ls;rm;C;4
+O que significa HTTP?;HyperText Transfer Protocol;High Task Technical Program;Home Total Transfer Product;Hyperlink Terminal Text Process;A;5
+Qual a porta USB mais comum para conectar dispositivos?;USB-A;USB-B;USB-C;USB-Micro;A;5
+O que e um firewall?;Um programa antivirus;Uma barreira de seguranca de rede;Um tipo de navegador;Um software de edicao de imagem;B;5
+O que e um pixel?;A menor unidade de uma imagem digital;Um tipo de impressora;Um componente da CPU;Um tipo de software grafico;A;1
+Qual o nome da tela inicial do Windows?;Barra de tarefas;Menu Iniciar;Area de trabalho;Painel de Controle;C;1
+Qual a funcao do disco rigido (HD)?;Armazenar programas e arquivos;Processar informacoes;Conectar a internet;Exibir graficos;A;2
+O que e um virus de computador?;Um software que protege o computador;Um programa malicioso que infecta o sistema;Um componente de hardware;Um tipo de rede;B;2
+Qual a sigla para "Rede de Area Local"?;WAN;MAN;LAN;GAN;C;3
+Quem e considerado o "pai da computacao" moderna?;Bill Gates;Alan Turing;Steve Jobs;Charles Babbage;D;3
+Qual foi o primeiro computador eletronico digital de grande escala?;ENIAC;ABC;Colossus;UNIVAC;A;3
+Qual empresa foi co-fundada por Steve Jobs?;Microsoft;IBM;Apple;Google;C;3
+Qual linguagem de programacao foi criada por Guido van Rossum?;Java;C++;Python;Ruby;C;4
+O que foi a Lei de Moore?;Uma lei sobre a densidade de transistores em chips;Uma lei da robotica;Uma lei sobre a velocidade da internet;Uma lei sobre o consumo de energia;A;4
+Qual o nome da primeira programadora de computadores?;Grace Hopper;Ada Lovelace;Hedy Lamarr;Marie Curie;B;4
+Qual o ano de lancamento do primeiro iPhone?;2005;2006;2007;2008;C;4
+Qual empresa lancou o sistema operacional Android?;Apple;Microsoft;Google;Samsung;C;5
+O que e HTML?;Linguagem de programacao;Linguagem de marcacao para web;Sistema operacional;Banco de dados;B;5
+Qual a funcao do navegador web?;Editar textos;Acessar sites da internet;Criar planilhas;Gerenciar arquivos;B;5
