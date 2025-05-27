@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <ctype.h> // Para toupper
-#include <time.h> // Para rand e srand
+#include <ctype.h>
+#include <time.h>
 #include "Pergunta.h"
 
-// Definicao do array de premios do "Show do Milhao"
 // Os indices correspondem aos premios APOS responder corretamente a pergunta 'i'.
-// Premio[0] = premio antes da P1, Premio[1] = premio apos P1, etc.
+
 const int PREMIOS_MILHAO[NUM_NIVEIS_PREMIOS] = {
-    0,      // Premio inicial (antes da P1)
+    0,      // Premio inicial
     1000,   // Pergunta 1: 1.000
     2000,   // Pergunta 2: 2.000
     3000,   // Pergunta 3: 3.000
@@ -24,10 +23,9 @@ const int PREMIOS_MILHAO[NUM_NIVEIS_PREMIOS] = {
     200000, // Pergunta 12: 200.000
     300000, // Pergunta 13: 300.000
     400000, // Pergunta 14: 400.000
-    1000000 // Pergunta 15 (O Milhao): 1.000.000
+    1000000 // Pergunta 15: 1.000.000
 };
 
-// Funcao auxiliar para remover quebra de linha de uma string
 void removerQuebraLinha(char *str) {
     if (str == NULL) return;
     size_t len = strlen(str);
@@ -47,25 +45,23 @@ int carregarPerguntasDeCsv(const char *nomeArquivo, Pergunta **perguntas) {
     int i = 0;
 
     if (arquivo == NULL) {
-        printf("Erro: Nao foi possivel abrir o arquivo '%s'. Verifique o caminho e as permissoes.\n", nomeArquivo);
+        printf("Nao foi possivel abrir o arquivo '%s'. Verifique o caminho e as permissoes.\n", nomeArquivo);
         fflush(stdout);
         *perguntas = NULL;
         return 0;
     }
 
-    printf("DEBUG: Arquivo '%s' aberto com sucesso.\n", nomeArquivo);
     fflush(stdout);
 
     // Pular o cabecalho
     if (fgets(linha, sizeof(linha), arquivo) == NULL) {
-        printf("Erro: Arquivo CSV vazio ou erro de leitura do cabecalho.\n");
+        printf("Arquivo CSV vazio ou erro de leitura do cabecalho.\n");
         fflush(stdout);
         fclose(arquivo);
         *perguntas = NULL;
         return 0;
     }
     removerQuebraLinha(linha);
-    printf("DEBUG: Cabecalho do CSV lido e ignorado: '%s'\n", linha);
     fflush(stdout);
 
     // Primeira passagem: Contar o numero de perguntas validas
@@ -87,7 +83,7 @@ int carregarPerguntasDeCsv(const char *nomeArquivo, Pergunta **perguntas) {
         // Usa uma copia da linha para strtok para nao destruir a original
         char *linha_copia = strdup(temp_linha);
         if (linha_copia == NULL) {
-            printf("Erro: Falha ao alocar memoria para copia da linha.\n");
+            printf("Falha ao alocar memoria para copia da linha.\n");
             fflush(stdout);
             continue;
         }
@@ -101,15 +97,14 @@ int carregarPerguntasDeCsv(const char *nomeArquivo, Pergunta **perguntas) {
         if (campos_contados == 7) {
             contador_linhas_validas++;
         } else {
-            printf("AVISO: Linha invalida ignorada durante contagem (campos incorretos: %d esperados 7): '%s'\n", campos_contados, linha);
+            printf("Linha invalida ignorada durante contagem (campos incorretos: %d esperados 7): '%s'\n", campos_contados, linha);
             fflush(stdout);
         }
     }
-    printf("DEBUG: Primeira passagem concluida. Total de linhas validas contadas: %d\n", contador_linhas_validas);
     fflush(stdout);
 
     if (contador_linhas_validas == 0) {
-        printf("Erro: Nao foi possivel carregar nenhuma pergunta valida do arquivo CSV.\n");
+        printf("Nao foi possivel carregar nenhuma pergunta valida do arquivo CSV.\n");
         fflush(stdout);
         fclose(arquivo);
         *perguntas = NULL;
@@ -118,14 +113,13 @@ int carregarPerguntasDeCsv(const char *nomeArquivo, Pergunta **perguntas) {
 
     *perguntas = (Pergunta *)malloc(contador_linhas_validas * sizeof(Pergunta));
     if (*perguntas == NULL) {
-        printf("Erro: Falha ao alocar memoria para as perguntas.\n");
+        printf("Falha ao alocar memoria para as perguntas.\n");
         fflush(stdout);
         fclose(arquivo);
         return 0;
     }
     numPerguntas = contador_linhas_validas;
 
-    printf("DEBUG: Memoria alocada para %d perguntas.\n", numPerguntas);
     fflush(stdout);
 
     fseek(arquivo, pos_atual, SEEK_SET);
@@ -145,7 +139,7 @@ int carregarPerguntasDeCsv(const char *nomeArquivo, Pergunta **perguntas) {
         // Usa uma copia da linha para strtok para nao destruir a original
         char *linha_para_parsear = strdup(temp_linha_parse);
         if (linha_para_parsear == NULL) {
-            printf("Erro: Falha ao alocar memoria para parse da linha.\n");
+            printf("Falha ao alocar memoria para parse da linha.\n");
             fflush(stdout);
             continue;
         }
@@ -154,48 +148,47 @@ int carregarPerguntasDeCsv(const char *nomeArquivo, Pergunta **perguntas) {
         if (token != NULL) {
             strncpy((*perguntas)[i].enunciado, token, MAX_ENUNCIADO - 1);
             (*perguntas)[i].enunciado[MAX_ENUNCIADO - 1] = '\0';
-        } else { printf("AVISO: Erro ao parsear enunciado na linha: '%s'\n", linha); free(linha_para_parsear); fflush(stdout); continue; }
+        } else { printf("Erro ao parsear enunciado na linha: '%s'\n", linha); free(linha_para_parsear); fflush(stdout); continue; }
 
         token = strtok(NULL, ";");
         if (token != NULL) {
             strncpy((*perguntas)[i].alternativaA, token, MAX_ALTERNATIVA - 1);
             (*perguntas)[i].alternativaA[MAX_ALTERNATIVA - 1] = '\0';
-        } else { printf("AVISO: Erro ao parsear alternativaA na linha: '%s'\n", linha); free(linha_para_parsear); fflush(stdout); continue; }
+        } else { printf("Erro ao parsear alternativaA na linha: '%s'\n", linha); free(linha_para_parsear); fflush(stdout); continue; }
 
         token = strtok(NULL, ";");
         if (token != NULL) {
             strncpy((*perguntas)[i].alternativaB, token, MAX_ALTERNATIVA - 1);
             (*perguntas)[i].alternativaB[MAX_ALTERNATIVA - 1] = '\0';
-        } else { printf("AVISO: Erro ao parsear alternativaB na linha: '%s'\n", linha); free(linha_para_parsear); fflush(stdout); continue; }
+        } else { printf("Erro ao parsear alternativaB na linha: '%s'\n", linha); free(linha_para_parsear); fflush(stdout); continue; }
 
         token = strtok(NULL, ";");
         if (token != NULL) {
             strncpy((*perguntas)[i].alternativaC, token, MAX_ALTERNATIVA - 1);
             (*perguntas)[i].alternativaC[MAX_ALTERNATIVA - 1] = '\0';
-        } else { printf("AVISO: Erro ao parsear alternativaC na linha: '%s'\n", linha); free(linha_para_parsear); fflush(stdout); continue; }
+        } else { printf("Erro ao parsear alternativaC na linha: '%s'\n", linha); free(linha_para_parsear); fflush(stdout); continue; }
 
         token = strtok(NULL, ";");
         if (token != NULL) {
             strncpy((*perguntas)[i].alternativaD, token, MAX_ALTERNATIVA - 1);
             (*perguntas)[i].alternativaD[MAX_ALTERNATIVA - 1] = '\0';
-        } else { printf("AVISO: Erro ao parsear alternativaD na linha: '%s'\n", linha); free(linha_para_parsear); fflush(stdout); continue; }
+        } else { printf("Erro ao parsear alternativaD na linha: '%s'\n", linha); free(linha_para_parsear); fflush(stdout); continue; }
 
         token = strtok(NULL, ";");
         if (token != NULL) {
             (*perguntas)[i].correta = toupper(token[0]);
-        } else { printf("AVISO: Erro ao parsear resposta correta na linha: '%s'\n", linha); free(linha_para_parsear); fflush(stdout); continue; }
+        } else { printf("Erro ao parsear resposta correta na linha: '%s'\n", linha); free(linha_para_parsear); fflush(stdout); continue; }
         
         token = strtok(NULL, ";");
         if (token != NULL) {
             (*perguntas)[i].nivel = atoi(token);
         } else { printf("AVISO: Erro ao parsear nivel na linha: '%s'\n", linha); free(linha_para_parsear); fflush(stdout); continue; }
 
-        free(linha_para_parsear); // Libera a memoria da linha para parsear
-        (*perguntas)[i].usada = 0; // Inicializa a flag 'usada' como falso (0)
+        free(linha_para_parsear);
+        (*perguntas)[i].usada = 0;
         i++;
     }
     
-    printf("DEBUG: Total de perguntas validas carregadas na segunda passagem: %d\n", i);
     fflush(stdout);
 
     fclose(arquivo);
@@ -205,7 +198,6 @@ int carregarPerguntasDeCsv(const char *nomeArquivo, Pergunta **perguntas) {
 void liberarPerguntas(Pergunta *perguntas) {
     if (perguntas != NULL) {
         free(perguntas);
-        printf("DEBUG: Memoria das perguntas liberada.\n");
         fflush(stdout);
     }
 }
@@ -220,7 +212,6 @@ void embaralharPerguntas(Pergunta *perguntas, int numPerguntas) {
         perguntas[i] = perguntas[j];
         perguntas[j] = temp;
     }
-    printf("DEBUG: Perguntas embaralhadas.\n");
     fflush(stdout);
 }
 
@@ -279,12 +270,10 @@ void realizarQuiz(Pergunta *perguntas, int numPerguntas) {
                numPerguntaAtual, nivelDificuldade, premioAtual, premioSeguro);
         fflush(stdout);
 
-        // Encontrar uma pergunta do nivel desejado que nao foi usada
         int idxPerguntaSelecionada = -1;
         int *indicesDisponiveis = NULL;
         int countDisponiveis = 0;
 
-        // Contar quantas perguntas disponiveis (nao usadas) existem para o nivel atual
         for (int k = 0; k < numPerguntas; k++) {
             if (perguntas[k].nivel == nivelDificuldade && perguntas[k].usada == 0) {
                 countDisponiveis++;
@@ -293,32 +282,30 @@ void realizarQuiz(Pergunta *perguntas, int numPerguntas) {
 
         if (countDisponiveis == 0) {
             printf("Erro: Nao ha perguntas nao utilizadas do nivel %d disponiveis no CSV. O jogo nao pode continuar.\n", nivelDificuldade);
-            printf("DEBUG: Fim de jogo devido a falta de perguntas. Premio final: R$ %ld\n", premioSeguro); // Leva o seguro
+            printf("Fim de jogo devido a falta de perguntas. Premio final: R$ %ld\n", premioSeguro); // Leva o seguro
             fflush(stdout);
             return; // Termina o jogo
         }
 
-        // Aloca memoria para os indices das perguntas disponiveis para este nivel
         indicesDisponiveis = (int *)malloc(countDisponiveis * sizeof(int));
         if (indicesDisponiveis == NULL) {
             printf("Erro: Falha ao alocar memoria para indices disponiveis.\n");
-            printf("DEBUG: Fim de jogo devido a erro de memoria. Premio final: R$ %ld\n", premioSeguro); // Leva o seguro
+            printf("Fim de jogo devido a erro de memoria. Premio final: R$ %ld\n", premioSeguro); // Leva o seguro
             fflush(stdout);
             return;
         }
 
-        // Preenche o array com os indices das perguntas disponiveis
         int current_idx_preencher = 0;
         for (int k = 0; k < numPerguntas; k++) {
             if (perguntas[k].nivel == nivelDificuldade && perguntas[k].usada == 0) {
                 indicesDisponiveis[current_idx_preencher++] = k;
             }
         }
-        
+    
         // Escolhe uma pergunta aleatoria entre as disponiveis
         idxPerguntaSelecionada = indicesDisponiveis[rand() % countDisponiveis];
         
-        free(indicesDisponiveis); // Libera a memoria alocada para indicesDisponiveis
+        free(indicesDisponiveis);
 
         perguntas[idxPerguntaSelecionada].usada = 1; // Marca a pergunta como usada
 
@@ -330,7 +317,7 @@ void realizarQuiz(Pergunta *perguntas, int numPerguntas) {
         
         printf("Sua resposta: ");
         scanf("%s", resposta);
-        while (getchar() != '\n'); // Limpa o buffer do teclado
+        while (getchar() != '\n');
 
         char respostaMaiuscula = toupper(resposta[0]);
 
@@ -345,13 +332,13 @@ void realizarQuiz(Pergunta *perguntas, int numPerguntas) {
                 printf("\nPARABENS! VOCE GANHOU O SHOW DO MILHAO!\n");
                 printf("Seu premio final e de R$ %ld!\n", premioAtual);
                 fflush(stdout);
-                return; // Fim de jogo, o jogador ganhou!
+                return;
             }
 
         } else {
             printf("Errado. A resposta correta era: %c\n", perguntas[idxPerguntaSelecionada].correta);
             printf("\n--- FIM DE JOGO ---\n");
-            printf("Voce errou a pergunta e leva para casa: R$ %ld\n", premioSeguro); // Leva o ultimo premio seguro
+            printf("Voce errou a pergunta e ganhou: R$ %ld\n", premioSeguro); // Leva o ultimo premio seguro
             fflush(stdout);
             return; // Encerra o jogo
         }
