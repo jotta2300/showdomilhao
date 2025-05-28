@@ -1,3 +1,0 @@
-ordem:
-gcc Pergunta.c main.c -o quiz_historia_computacao
-./quiz_historia_computacao
