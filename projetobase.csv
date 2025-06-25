@@ -1,0 +1,81 @@
+enunciado,alternativaA,alternativaB,alternativaC,alternativaD,correta,nivel
+Qual a parte física do computador?,Monitor,Teclado,Hardware,Software,C,1
+O que é um algoritmo?,Um plano de refeições,Uma sequência de passos para resolver um problema,Um tipo de dado,Um programa de computador,B,1
+O que é um pixel?,A menor unidade de uma imagem digital,Um tipo de impressora,Um componente da CPU,Um tipo de software gráfico,A,1
+Qual o nome da tela inicial do Windows?,Barra de tarefas,Menu Iniciar,Área de trabalho,Painel de Controle,C,1
+Qual periférico usamos para digitar?,Monitor,Mouse,Teclado,Impressora,C,1
+Qual destes é um dispositivo de entrada?,Monitor,Teclado,Caixa de som,Projetor,B,1
+O que é um monitor?,Um software,Um tipo de cabo,Um periférico de saída,Uma memória,C,1
+Qual item não é considerado hardware?,Memória RAM,Mouse,Sistema Operacional,Placa-mãe,C,1
+O que é software?,Parte física,Parte lógica,Tipo de chip,Fonte de energia,B,1
+O que usamos para clicar e arrastar objetos na tela?,Teclado,Scanner,Mouse,HD,C,1
+O que usamos para imprimir documentos?,Teclado,Impressora,Scanner,Mouse,B,1
+Qual desses é um exemplo de software?,HD,Word,USB,Fonte,B,1
+Qual é a principal função do teclado?,Exibir imagens,Imprimir documentos,Digitar textos,Armazenar dados,C,1
+Um exemplo de hardware é?,Excel,Photoshop,Placa de vídeo,Linux,C,1
+Para salvar arquivos usamos?,Impressora,Scanner,Pen drive,Teclado,C,1
+Qual o nome do programa usado para planilhas?,Word,Excel,PowerPoint,Access,B,1
+O que é desktop?,Notebook,Celular,Área de trabalho,Tablet,C,1
+Qual a função do botão liga/desliga?,Desinstalar programas,Formatar HD,Ligar/desligar o computador,Atualizar sistema,C,1
+O que representa um clique duplo?,Abrir ou executar um item,Desligar o PC,Formatar pendrive,Excluir dados,A,1
+O que é cursor?,Texto,Imagem,Ponteiro do mouse,Teclado,C,1
+Qual a principal função da CPU?,Armazenar dados,Processar dados,Exibir imagens,Conectar à internet,B,2
+O que significa RAM?,Random Access Memory,Read Only Memory,Rapid Access Module,Realtime Access Management,A,2
+Qual a função do disco rígido (HD)?,Armazenar programas e arquivos,Processar informações,Conectar à internet,Exibir gráficos,A,2
+O que é um vírus de computador?,Um software que protege o computador,Um programa malicioso que infecta o sistema,Um componente de hardware,Um tipo de rede,B,2
+Qual é o sistema operacional da Apple?,Linux,Android,macOS,Windows,C,2
+O que significa "salvar" um arquivo?,Excluir o arquivo,Abrir o arquivo,Armazenar o arquivo,Imprimir o arquivo,C,2
+Qual unidade armazena mais?,KB,MB,GB,TB,D,2
+Qual item é essencial para conectar à internet?,Fonte de energia,Mouse,Roteador,Impressora,C,2
+Qual função do botão "Enter"?,Cancelar ação,Salvar documento,Executar comando ou mudar linha,Desligar PC,C,2
+O que é backup?,Apagar arquivos,Atualizar sistema,Copiar dados para segurança,Formatar PC,C,2
+O que é multitarefa?,Ação única do sistema,Execução de várias tarefas simultaneamente,Instalação de software,Atualização de driver,B,2
+Qual é a tecla usada para apagar?,Enter,Shift,Delete,Ctrl,C,2
+O que representa ".docx"?,Imagem,Documento de texto do Word,Áudio,Vídeo,B,2
+Qual é a finalidade do Paint?,Navegar na internet,Desenhar e editar imagens,Criar planilhas,Digitar textos,B,2
+O que é um navegador de internet?,Sistema operacional,Programa para acesso à internet,Editor de vídeo,Impressora,B,2
+Qual comando fecha um programa no Windows?,Alt + Tab,Ctrl + C,Alt + F4,Ctrl + V,C,2
+O que é atualização de software?,Apagar arquivos,Instalar vírus,Melhorar e corrigir funções,Desligar o PC,C,2
+O que é a BIOS?,Sistema operacional,Configuração básica do hardware,Software antivírus,Programa de edição,B,2
+Qual componente armazena dados permanentemente?,RAM,Cache,HD,Processador,C,2
+Qual periférico usamos para digitalizar imagens?,Impressora,Scanner,Monitor,Webcam,B,2
+Qual periférico de saída exibe informações visuais?,Teclado,Mouse,Impressora,Monitor,D,3
+Qual a função de um mouse?,Digitar texto,Mover o cursor na tela,Imprimir documentos,Armazenar arquivos,B,3
+O que é um byte?,Unidade de tempo,Unidade de dados,Tipo de conexão de rede,Programa de segurança,B,3
+Qual destes é um sistema operacional?,Microsoft Word,Google Chrome,Windows,Adobe Photoshop,C,3
+Qual a sigla para "Rede de Área Local"?,WAN,MAN,LAN,GAN,C,3
+Quem é considerado o "pai da computação" moderna?,Bill Gates,Alan Turing,Steve Jobs,Charles Babbage,D,3
+Qual foi o primeiro computador eletrônico digital de grande escala?,ENIAC,ABC,Colossus,UNIVAC,A,3
+Qual empresa foi cofundada por Steve Jobs?,Microsoft,IBM,Apple,Google,C,3
+Qual dispositivo usamos para conversar por vídeo?,Mouse,Webcam,Impressora,Scanner,B,3
+Qual unidade mede a velocidade do processador?,GB,MHz/GHz,MB,TB,B,3
+Qual linguagem representa instruções ao processador?,HTML,Python,Assembly,JavaScript,C,3
+Qual cabo conecta monitor à CPU?,HDMI,USB,Ethernet,RJ11,A,3
+Qual dos seguintes é exemplo de rede sem fio?,Ethernet,Wi-Fi,USB,HDMI,B,3
+Qual equipamento serve para projetar imagens na parede?,Monitor,Projetor,Impressora,Scanner,B,3
+Qual protocolo define regras de comunicação na internet?,TCP/IP,HDMI,USB,LAN,A,3
+Qual a unidade básica de informação em computação?,Megabyte,Gigabyte,Bit,Kilobyte,C,4
+O que é um software?,Parte física do computador,Um programa de computador,Um tipo de cabo,Um periférico de entrada,B,4
+Qual o nome do programa que usamos para acessar sites na internet?,Navegador,Editor de Texto,Planilha,Reprodutor de Vídeo,A,4
+Qual o comando para listar arquivos no terminal Linux?,cd,mkdir,ls,rm,C,4
+Qual linguagem de programação foi criada por Guido van Rossum?,Java,C++,Python,Ruby,C,4
+O que foi a Lei de Moore?,Lei sobre transistores em chips,Lei da robótica,Lei sobre internet,Lei de consumo,A,4
+Qual o nome da primeira programadora?,Grace Hopper,Ada Lovelace,Hedy Lamarr,Marie Curie,B,4
+Qual o ano de lançamento do primeiro iPhone?,2005,2006,2007,2008,C,4
+O que é Kernel?,Navegador,Núcleo do sistema operacional,Tipo de vírus,Programa gráfico,B,4
+O que significa SSD?,Solid State Drive,Super Speed Device,Safe Storage Data,Soft System Device,A,4
+Qual função do comando "mkdir"?,Listar,Remover,Criar pasta,Renomear,C,4
+Quem criou o sistema Linux?,Steve Jobs,Linus Torvalds,Bill Gates,Dennis Ritchie,B,4
+Qual é a linguagem usada para páginas web?,Python,HTML,C++,SQL,B,4
+O que é um driver?,Dispositivo de entrada,Software que faz hardware funcionar,Placa-mãe,Sistema de backup,B,4
+Qual dos itens é um banco de dados?,Word,Access,Photoshop,Chrome,B,4
+O que significa HTTP?,HyperText Transfer Protocol,High Task Technical Program,Home Total Transfer Product,Hyperlink Terminal Text Process,A,5
+Qual a porta USB mais comum?,USB-A,USB-B,USB-C,USB-Micro,A,5
+O que é um firewall?,Antivírus,Barreira de segurança de rede,Navegador,Software de imagem,B,5
+Qual empresa lançou o sistema Android?,Apple,Microsoft,Google,Samsung,C,5
+O que é HTML?,Linguagem de programação,Linguagem de marcação para web,Sistema operacional,Banco de dados,B,5
+Qual a função do navegador?,Editar textos,Acessar sites da internet,Criar planilhas,Gerenciar arquivos,B,5
+O que é uma VPN?,Rede privada virtual,Antivírus,Placa de vídeo,Fonte de energia,A,5
+O que significa "open source"?,Código fechado,Software gratuito,Código aberto,Sistema pago,C,5
+Qual a principal função do DNS?,Traduzir nomes de domínio para IP,Armazenar arquivos,Segurança de dados,Criptografia,A,5
+O que significa SQL?,Simple Query Line,Structured Query Language,System Query Logic,Secure Question Link,B,5
